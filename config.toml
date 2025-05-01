@@ -1,0 +1,52 @@
+[theme]
+primaryColor = "#4CAF50"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F5F5"
+textColor = "#212121"
+font = "sans serif"
+
+# Sidebar
+sidebarBackgroundColor = "#1E88E5"  # Bleu pro
+sidebarTextColor = "#FFFFFF"
+
+# Éléments interactifs et visuels
+highlightBackgroundColor = "#E3F2FD"
+cardBackgroundColor = "#FAFAFA"
+successColor = "#66BB6A"
+warningColor = "#FFA726"
+errorColor = "#EF5350"
+
+[ui]
+hideTopBar = false
+hideSidebarNav = false
+width = "wide"
+
+[server]
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 200
+
+[browser]
+serverAddress = "localhost"
+serverPort = 8501
+gatherUsageStats = false
+viewportWidth = 1200
+viewportHeight = 800
+
+[runner]
+magicEnabled = true
+installTracer = false
+fixMatplotlib = true
+
+[deprecation]
+showfileUploaderEncoding = false
+showPyplotGlobalUse = false
+
+[logger]
+level = "info"
+messageFormat = "%(asctime)s %(message)s"
+
+[client]
+caching = true
+displayEnabled = true
+showErrorDetails = true
